@@ -1,5 +1,5 @@
 # expo-filesystem-storage
-Redux Persist storage engine for Expo FileSystem API. Alternative of default AsyncStorage to get over  storage size limitations in Android.
+Storage engine for Expo FileSystem API. Alternative of default AsyncStorage to get over  storage size limitations in Android.
 
 
 ### Install
@@ -8,7 +8,7 @@ Redux Persist storage engine for Expo FileSystem API. Alternative of default Asy
 npm install expo-filesystem-storage
 ```
 
-### Usage with [redux-persist](https://github.com/rt2zz/redux-persist/) 
+### Usage with [redux-persist](https://github.com/rt2zz/redux-persist/)
 
 ```js
 import createExpoFileSystemStorage from 'expo-filesystem-storage'
@@ -19,7 +19,6 @@ const expoFsStorage = createExpoFileSystemStorage();
 
 const persistConfig = {
   key: 'root',
-  keyPrefix: ''
   storage: expoFsStorage,
 };
 
