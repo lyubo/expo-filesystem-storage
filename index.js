@@ -3,12 +3,11 @@
 * Copyright 2019  Lyubomir Ivanov
 */
 
-
-import { FileSystem } from "expo";
+import * as FileSystem from 'expo-file-system'
 
 let defaultOptions = {
   storagePath: `${FileSystem.documentDirectory}persistStore`,
-  encoding: FileSystem.EncodingTypes.UTF8,
+  encoding: FileSystem.EncodingType.UTF8,
   debug: false
 }
 

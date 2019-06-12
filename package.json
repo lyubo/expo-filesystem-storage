@@ -1,6 +1,6 @@
 {
   "name": "expo-filesystem-storage",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Storage engine which uses Expo FileSystem API. Can be used as a replacement of AsyncStorage in redux-persist",
   "author": "Lyubomir Ivanov",
   "main": "index.js",
@@ -16,6 +16,6 @@
     "url" : "https://github.com/lyubo/expo-filesystem-storage.git"
   },
   "peerDependencies": {
-    "expo-file-system-interface": "~2.0.0"
+    "expo-file-system": "~5.0.1"
   }
 }
