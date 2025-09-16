@@ -1,5 +1,5 @@
 # expo-filesystem-storage
-Storage engine for Expo FileSystem API. Alternative of default AsyncStorage to get over  storage size limitations in Android.
+Storage engine for Expo FileSystem API. Alternative of default AsyncStorage to get over storage size limitations in Android.
 
 
 ### Install
@@ -37,7 +37,7 @@ const persistor = persistStore(store);
 ...
 
 const customOptions = {
-  storagePath: `${FileSystem.documentDirectory}persistStore`,
+  rootDir: `${Paths.cache}`,
   debug: true,
 }
 
