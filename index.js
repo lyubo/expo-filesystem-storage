@@ -3,7 +3,7 @@
 * Copyright 2019  Lyubomir Ivanov
 */
 
-import * as FileSystem from 'expo-file-system'
+import * as FileSystem from 'expo-file-system/legacy'
 
 let defaultOptions = {
   storagePath: `${FileSystem.documentDirectory}persistStore`,
